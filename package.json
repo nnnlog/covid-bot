@@ -1,0 +1,14 @@
+{
+  "name": "covid-19-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-telegram-bot-api": "^0.40.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
