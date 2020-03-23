@@ -78,9 +78,9 @@ const fetch_data = async () => {
 					if (data[i] < temp[i]) {
 						updated = true;
 
-						msg += `${names[i]} : \`${numberWithCommas(temp[i])}명 (${numberWithCommas(temp[i] - data[i])}\`명 추가)\n`;
+						msg += `${names[i]} : \`${numberWithCommas(temp[i])}\`명 \`(${numberWithCommas(temp[i] - data[i])}\`명 추가)\n`;
 					} else {
-						msg += `${names[i]} : \`${numberWithCommas(temp[i])}명\n`;
+						msg += `${names[i]} : \`${numberWithCommas(temp[i])}\`명\n`;
 					}
 				}
 
